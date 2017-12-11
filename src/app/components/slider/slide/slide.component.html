@@ -1,0 +1,9 @@
+
+    <div class="slide"  *ngFor="let image of images" [style.left.px]="left" #mySlide>
+      <img [src]="image.imgSrc" [alt]="image.imgTitle" >
+      <div class="slide_sign">
+        {{image.imgTitle}}
+      </div>
+		</div>
+		
+  
